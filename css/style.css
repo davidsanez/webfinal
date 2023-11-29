@@ -1,0 +1,59 @@
+nav {
+    background-color: #2E86C1;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav a {
+    color: #f5f1f1;
+    text-decoration: none;
+}
+body{
+    background-image: url("file:///C:/Users/pablo/Downloads/foto");
+}
+menu{
+    height: 15px;
+}
+.titulo {
+    text-align: center;
+    color:white;
+}
+.contenedor {
+	display: flex;
+	flex-direction: column;
+	height: 80vh;
+  }
+  
+  .contenedor > div {
+	flex: 1;
+	display: flex;
+  }
+  
+  .cuadrante1 {
+	flex: 1;
+	
+  }
+  
+  .cuadrante2 {
+	flex: 1;
+	
+  }
+  
+  .cuadrante3 {
+	flex: 1;
+
+  }
+  
+  .cuadrante4 {
+	flex: 1;
+    }
+ 
