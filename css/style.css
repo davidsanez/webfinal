@@ -78,9 +78,10 @@ menu{
   
  }
  .temas{
+  color: yellow;
   text-align: center;
-  color: white;
-  font-size: larger;
+
+  
  }
  #Temario{
   text-align: center;
@@ -91,7 +92,71 @@ menu{
  #imagen1{
   margin-left: 300px;
  }
+ #definicion{
+  color: black;
+ }
  #contactar{
   color:white;
   font-size: large;
  }
+  .otrasweb{
+    color: rgb(0, 255, 64);
+    font-size: large;
+  }
+ 
+
+ 
+  #contacto {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 10px solid #ccc;
+    background-color: #f0f0f0;
+  }
+
+  
+  #contacto h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+
+  
+  #contacto div {
+    margin: 10px;
+  }
+
+  #contacto label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #contacto input, #contacto textarea {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+  #contacto input:focus, #contacto textarea:focus {
+    outline: none;
+    border-color: #333;
+  }
+
+
+  #contacto button {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+
+  #contacto button:hover {
+    background-color: #444;
+  }

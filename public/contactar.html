@@ -11,27 +11,38 @@
             <ul>
                 <li><a href="../index.html">Menu principal</a></li>
                 <li><a href="./aboutme.html">Sobre mí</a></li>
-                <li><a href="./red.html">Red</a></li>
+                <li><a href="./red.html">Red/Otras Paginas web</a></li>
                 <li><a href="./contactar.html">Contactar</a></li>
                 <li><a href="./tematica.html">Temática</a></li>
                 <li><a href="./fundamentos.html">Fundamentos</a></li>
             </ul>
         </nav>
         <h1 class="titulo"><menu>Contactar</menu></h1>
-        <p id="contactar">Si tiene alguna duda o problema contactenos a traves del siguiente formulario:</p>
-        <label for ="nombre"> Nombre</label>
-        <br>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
-        <!--Placecholder sirve para que aparzca la palabra dentro del cuadrado-->
-        <!--type sirve para dar diferentes cajas como botones, de texto...-->
-        <br>
-        <!--puedo agregar todos los campos que quierade 
-            formulario dentro del mismo form-->
-        <textarea id="IngreseComentario" placeholder="Nombre" name="comentario" id="" cols="30" rows="10"></textarea>   
-    </form>
-    <!--para que me contacte el siguiente comando-->
-    <footer>
-        <a href="aqui poner un correo inventado" >Contactame por aqui></a></a>
-    </footer>
+        <div id="contacto">
+            <h2>Contacta con nosotros</h2>
+            <form action="enviar.php" method="post">
+              <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+              </div>
+             
+              <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+              </div>
+              
+              <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+              </div>
+           
+              <div>
+                
+                <button type="submit">Enviar</button>
+                
+                   
+                </div>
+            </form>
+          </div>
     </body>
     </html>
