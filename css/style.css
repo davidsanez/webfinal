@@ -101,11 +101,17 @@ menu{
     color: orange;
   }
  .temas{
+  font-size: 20px;
   color: yellow;
   
 }
- 
-
+ .informacion{
+  color: white;
+  font-size: 15px;
+ }
+#imagenchico{
+  margin-left: 300px;
+}
  #imagen1{
   margin-left: 300px;
  }
